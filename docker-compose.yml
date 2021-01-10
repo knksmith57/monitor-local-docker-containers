@@ -29,7 +29,7 @@ services:
       - influxdb
 
   influxdb:
-    image: influxdb:alpine
+    image: influxdb:1.8-alpine
     restart: always
     environment:
       INFLUXDB_ADMIN_USER: 'admin'
