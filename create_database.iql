@@ -1,0 +1,2 @@
+-- https://docs.influxdata.com/influxdb/v1.7/query_language/database_management/#retention-policy-management
+CREATE DATABASE "telegraf" WITH DURATION 1d REPLICATION 1;
